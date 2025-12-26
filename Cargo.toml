@@ -1,0 +1,16 @@
+[package]
+name = "clipper"
+version = "0.1.0"
+edition = "2024"
+
+[profile.release]
+opt-level = "z"
+lto = true
+
+[dependencies]
+clap = {version = "4.0", features =["derive"]}
+arboard = "3.0"
+
+[[bin]]
+name = "clp"
+path = "src/main.rs"
