@@ -5,7 +5,7 @@ edition = "2024"
 authors = ["NinjaDWrex"]
 description = "Simple cli application for copying text file contents to the clipboard on wayland based systems"
 repository = "https://github.com/NinjaDWrex/clipper"
-license = "UNLICENCED"
+license = "GPL-3.0-only"
 
 [profile.release]
 opt-level = "z"
