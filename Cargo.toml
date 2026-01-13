@@ -1,5 +1,5 @@
 [package]
-name = "clipper"
+name = "clipper-wayland-files"
 version = "1.0.0"
 edition = "2024"
 authors = ["NinjaDWrex"]
