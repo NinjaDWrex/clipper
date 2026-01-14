@@ -11,6 +11,8 @@ struct Args {
     /// file input
     file: Option<String>,
     //Later on we can develop something to add a 'file line' or 'search line by text' flag for the program
+    #[arg(short, long)]
+    line_no: u8,
 }
 
 fn main() {
